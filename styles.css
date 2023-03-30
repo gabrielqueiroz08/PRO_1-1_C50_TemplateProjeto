@@ -1,6 +1,6 @@
 .menu {
   /* adicione o código correto para colocar o menu corretamente.*/
-
+  display: flex;
   background-color: black;
   font-size: 30px;
   font-family: sans-serif;
@@ -13,7 +13,7 @@ body {
 .grid {
   /* adicione o código correto para colocar os elementos da grade
   um ao lado do outro igualmente.   */
-
+  justify-content: space-evenly;
   flex-wrap: wrap;
   font-family: sans-serif;
 }
